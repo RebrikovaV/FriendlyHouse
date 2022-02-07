@@ -1,0 +1,13 @@
+.present {
+    max-width: 480px;
+    padding-top: 95px;
+    margin-bottom: 200px;
+    padding-left: 130px;
+}
+
+.present__title {
+    font-size: 50px;
+    font-weight: 400px;
+    line-height: 60px;
+    margin-bottom: 45px;
+}

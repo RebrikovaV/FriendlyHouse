@@ -1,0 +1,12 @@
+.card__subtitle {
+    width: 380px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-left: 85px;
+}
+
+.card__subtitle_bold {
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-weight: 500;
+}

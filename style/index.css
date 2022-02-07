@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Comfortaa ;
+    src: local("Comfortaa"),
+        url("fonts/Comfortaa-Regular.woff2") format("woff2"),
+        url("fonts/Comfortaa-Regular.woff") format("woff"); 
+    font-weight: 400 ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr" ;
+    src: local(HelveticaNeueCyr-Light), 
+        url("fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
+        url("fonts/HelveticaNeueCyr-Light.woff") format("woff"); 
+    font-weight: 300 ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr" ;
+    src: local(HelveticaNeueCyr-Roman),
+        url("fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+        url("fonts/HelveticaNeueCyr-Roman.woff") format("woff"); 
+    font-weight: 400 ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr" ;
+    src: local(HelveticaNeueCyr-Medium),
+        url("fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
+        url("fonts/HelveticaNeueCyr-Medium.woff") format("woff"); 
+    font-weight: 500 ;
+    font-display: swap;
+}
+
+body {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-weight: 300 ;
+    background-color: #1B1A1B;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: Comfortaa, sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+h3 {
+    display: inline-block;
+    font-family: HelveticaNeueCyr, sans-serif;
+    font-weight: 400;
+    width: 380px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+}
+

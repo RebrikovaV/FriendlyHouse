@@ -1,0 +1,105 @@
+.form{
+    margin: 167px auto;
+}
+
+.form__container{
+    margin: 0 auto;
+    background-color: #F2F0F1;
+    color: #282626;
+    padding-top: 50px;
+    width: 780px;
+    height: 562px;
+    border-radius: 20px;
+}
+
+.form__title {
+    font-family: "Comfortaa";
+    font-size: 30px;
+    line-height: 40px;
+    color: #ff8a00;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form__subtitle{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.form__subtitle_orange{
+    color: #ff8a00;
+    font-weight: 550;
+}
+
+.form__contacts-box{
+    width: 548px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.form__contacts{
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+    color: inherit
+}
+
+.form__contacts_phone::before{
+    content: "";
+    display: inline-block;
+    background-image: url("img/phone.svg");
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+.form__contacts_phone{
+    margin-right: 45px;
+}
+
+.form__contacts_mail::before{
+    content:"";
+    display: inline-block;
+    background-image: url("img/email.png");
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+.form__box{
+    width: 580px;
+    margin: 0 auto;
+}
+
+.form__window{
+    width: 280px;
+    height: 40px;
+    background-color: #fff;
+    border: 0px;
+    width: 280px;
+    height: 40px;
+}
+
+.form__wrap-window{
+    display: inline-block;
+}
+
+.form__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__button{
+    background-image: url("img/button.png");
+    width: 80px;
+    height: 90px;
+    border: 0px;
+    float: right;
+    margin-top: 34px;
+}
